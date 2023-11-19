@@ -3,7 +3,3 @@ import Basic_Maths, dataclasses, signal, s2clientprotocol, time, os, ossaudiodev
 
 def p(string):
     print("{0}", format(string))
-
-def i(inputstr):
-    global inputs
-    inputs=str(input('{0}', format(inputstr)))
